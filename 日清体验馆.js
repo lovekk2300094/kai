@@ -3,7 +3,7 @@
  * rqtyg
  * Author: Mist
  * Date: 2024-06-21
- * cron "30 6 * * *" rqtyg.js
+ * cron "21 6 * * *" rqtyg.js
  * export rqtyg= token     多账号换行或者#分隔
  * 小程序进入，积分兑换泡面
  * 抓token填写rqtyg
