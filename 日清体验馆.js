@@ -5,7 +5,8 @@
  * Date: 2024-06-21
  * cron "30 6 * * *" rqtyg.js
  * export rqtyg= token     多账号换行或者#分隔
- * 积分兑换泡面
+ * 小程序进入，积分兑换泡面
+ * 抓token填写rqtyg
  */
 // ============================================================================================================
 const $ = new Env('vx日清体验馆') 
@@ -77,7 +78,7 @@ async function SignInDailyScore(user) {
                 'Host': 'prod-api.nissinfoodium.com.cn',
                 'enterprise-hash': '1246b9ecd0972c7b0e50b4c9cdad9f0c',
                 'token': user.token,
-                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090b11) XWEB/9129',
+                'user-agent': 'Mozilla/5.0 (Linux; Android 14; 23116PN5BC Build/UKQ1.230804.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6261.120 Mobile Safari/537.36 XWEB/1220099 MMWEBSDK/20240404 MMWEBID/2445 MicroMessenger/8.0.49.2600(0x28003133) WeChat/arm64 Weixin NetType/4G Language/zh_CN ABI/arm64 MiniProgramEnv/android',
             },
         };
         //console.log(urlObject);
@@ -106,7 +107,7 @@ async function Shop(user) {
                 'content-type': 'application/json',
                 'enterprise-hash': '1246b9ecd0972c7b0e50b4c9cdad9f0c',
                 'token': user.token,
-                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090b11) XWEB/9129',
+                'user-agent': 'Mozilla/5.0 (Linux; Android 14; 23116PN5BC Build/UKQ1.230804.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6261.120 Mobile Safari/537.36 XWEB/1220099 MMWEBSDK/20240404 MMWEBID/2445 MicroMessenger/8.0.49.2600(0x28003133) WeChat/arm64 Weixin NetType/4G Language/zh_CN ABI/arm64 MiniProgramEnv/android',
             },
             data:{
                 "sku_id": 334385068518080,
@@ -140,7 +141,7 @@ async function Draw(user) {
                 'content-type': 'application/json',
                 'enterprise-hash': '1246b9ecd0972c7b0e50b4c9cdad9f0c',
                 'token': user.token,
-                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090b11) XWEB/9129',
+                'user-agent': 'Mozilla/5.0 (Linux; Android 14; 23116PN5BC Build/UKQ1.230804.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6261.120 Mobile Safari/537.36 XWEB/1220099 MMWEBSDK/20240404 MMWEBID/2445 MicroMessenger/8.0.49.2600(0x28003133) WeChat/arm64 Weixin NetType/4G Language/zh_CN ABI/arm64 MiniProgramEnv/android',
             },
             data:{
                 "activity_rule_id": 349294488649024
@@ -173,7 +174,7 @@ async function GetUserPoint(user) {
                 'content-type': 'application/json',
                 'enterprise-hash': '1246b9ecd0972c7b0e50b4c9cdad9f0c',
                 'token': user.token,
-                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090b11) XWEB/9129',
+                'user-agent': 'Mozilla/5.0 (Linux; Android 14; 23116PN5BC Build/UKQ1.230804.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6261.120 Mobile Safari/537.36 XWEB/1220099 MMWEBSDK/20240404 MMWEBID/2445 MicroMessenger/8.0.49.2600(0x28003133) WeChat/arm64 Weixin NetType/4G Language/zh_CN ABI/arm64 MiniProgramEnv/android',
             },
         };
         //console.log(urlObject);
