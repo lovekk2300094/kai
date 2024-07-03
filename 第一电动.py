@@ -1,4 +1,4 @@
-#积分兑换实物
+#积分兑换实物 入口:下载软件登录
 #dydd=uid#token
 import os
 import requests
@@ -28,7 +28,7 @@ params_base = {
 }
 
 headers = {
-    'User-Agent': "Dalvik/2.1.0 (Linux; U; Android 9; PCRT00 Build/PQ3A.190605.06201646)",
+    'User-Agent': "Dalvik/2.1.0 (Linux; U; Android 14; 23116PN5BC Build/UKQ1.230804.001)",
     'Connection': "Keep-Alive",
     'Accept-Encoding': "gzip",
     'TE': "gzip, deflate; q=0.5"
