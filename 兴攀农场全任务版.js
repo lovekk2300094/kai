@@ -1,5 +1,6 @@
 /**
  * 小程序 领水果的本
+ * 微信授权登录，进入小程序浇水点几下，抓包p.xpfarm.cn下的authorization的值全部填到xpnc变量
  * 兴攀农场
  * xpnc
  * Author: Mist
