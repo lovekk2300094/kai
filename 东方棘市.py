@@ -81,15 +81,15 @@ if __name__ == "__main__":
     accounts = get_accounts_from_env('dfjsck')
 
     headers = {
-        'User-Agent': ("Mozilla/5.0 (Linux; Android 10; Mi 10 Pro Build/TKQ1.221114.001; wv) "
+        'User-Agent': ("Mozilla/5.0 (Linux; Android 14; 23116PN5BC Build/UKQ1.230804.001; wv) "
                        "AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6261.120 "
-                       "Mobile Safari/537.36 XWEB/1220099 MMWEBSDK/20240301 MMWEBID/1663 MicroMessenger/8.0.48.2580"
-                       "(0x28003052) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android"),
+                       "Mobile Safari/537.36 XWEB/1220099 MMWEBSDK/20240404 MMWEBID/2445 MicroMessenger/8.0.49.2600"
+                       "(0x28003133) WeChat/arm64 Weixin NetType/4G Language/zh_CN ABI/arm64 MiniProgramEnv/android"),
         'Accept': "application/json",
         'Accept-Encoding': "gzip,compress,br,deflate",
         'charset': "utf-8",
         'version': "1.0.13.2",
-        'Referer': "https://servicewechat.com/wxebdf2c44a2a714c2/69/page-frame.html"
+        'Referer': "https://servicewechat.com/wxebdf2c44a2a714c2/70/page-frame.html"
     }
 
     print("=== 东方棘市签到 ===")
