@@ -3,7 +3,7 @@
  * zwxq
  * Author: Mist
  * Date: 2024-06-25
- * cron "30 9 * * *" zwxq.js
+ * cron "21 9 * * *" zwxq.js
  * 注册：https://www.pftp2012.com
  * export zwxq= 账号&密码     多账号换行或者#分隔
  * 获取绿星币可抵扣商品订单
