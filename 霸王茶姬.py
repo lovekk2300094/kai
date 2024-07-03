@@ -10,7 +10,7 @@
 则变量为10086&1008611
 export bwcjck=""
 
-cron: 0 0,7 * * *
+cron: 11 0,7 * * *
 const $ = new Env("MK霸王茶姬签到");
 """
 import requests
