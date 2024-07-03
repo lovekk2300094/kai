@@ -2,7 +2,7 @@
  * Babaycare旗舰店、超级门店通用
  * Author: Mist
  * Date: 2024-06-21
- * cron "30 7 * * *" babaycare.js
+ * cron "24 7 * * *" babaycare.js
  * export babaycare= authorization     多账号换行或者#分隔
  * 签到抽奖
  */
