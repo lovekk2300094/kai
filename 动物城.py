@@ -1,7 +1,7 @@
 '''
 变量dwc=token
 动物城-7月1日首码
-入口：http://saves.dwc.tuesjf.cn/?type=1&share_code=CRUHET
+入口：http://saves.dwc.tuesjf.cn?type=1&share_code=PD7PN8
 抓dwccc.tuesjf.cn接口的token 参数填在下面就行，token有的在url链接上，有的在请求体里，自己找
 一天看25个广告得宠物蛋，宠物蛋拿去孵化，孵化完拿去派遣或合成或出售
 里面的货币是金币，可直接兑换红包提现，出售宠物和派遣宠物都可获得
