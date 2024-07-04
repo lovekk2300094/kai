@@ -1,4 +1,5 @@
 '''
+变量dwc=token
 动物城-7月1日首码
 入口：http://saves.dwc.tuesjf.cn/?type=1&share_code=CRUHET
 抓dwccc.tuesjf.cn接口的token 参数填在下面就行，token有的在url链接上，有的在请求体里，自己找
@@ -15,7 +16,7 @@ class dwc():
         self.token = token
         self.headers = {
             "Content-Type": "application/x-www-form-urlencoded",
-            "user-agent": "Mozilla/5.0 (Linux; Android 11; Redmi K30i 5G Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.131 Mobile Safari/537.36 uni-app Html5Plus/1.0 (Immersed/34.545456)",
+            "user-agent": "Mozilla/5.0 (Linux; Android 14; 23116PN5BC Build/UKQ1.230804.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 uni-app Html5Plus/1.0(Immersed/42.0)",
             "Host": "dwccc.tuesjf.cn",
             "Connection": "Keep-Alive",
             "Accept-Encoding": "gzip"
