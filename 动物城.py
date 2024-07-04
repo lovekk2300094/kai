@@ -1,5 +1,5 @@
 '''
-变量dwc=token
+变量把token值填写到第77行的token=""里面去
 动物城-7月1日首码
 入口：http://saves.dwc.tuesjf.cn?type=1&share_code=PD7PN8
 抓dwccc.tuesjf.cn接口的token 参数填在下面就行，token有的在url链接上，有的在请求体里，自己找
