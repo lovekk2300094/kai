@@ -153,8 +153,8 @@ class yuanshen:
   print("======================================")
   self.userinfo()
 if __name__=='__main__':
- appToken='AT_9IrgzJRJvHWB73EQixDWiIMpyXyh1m5B'
- topicIds='79352'
+ appToken=''
+ topicIds=''
  if not appToken or not topicIds:
   appToken=os.getenv("yuanshen_apptoken")
   topicIds=os.getenv("yuanshen_topicid")
