@@ -1,4 +1,17 @@
-#2024-07-05 12:21:17
+#   --------------------------------注释&变量区--------------------------------
+#   入口:
+#   微信打开： https://168740033-1257141735.cos-website.ap-nanjing.myqcloud.com/index.html?pid=16345
+#   或https://168725759-1257141735.cos-website.ap-nanjing.myqcloud.com/index.html?pid=16345
+#
+#   找含sx.shuxiangby.cn域名下的cookie中user_openid，uid，PHPSESSID的值
+#   user_openid=**** 只要**** 其余两项也是如此
+#   变量格式user_openid的值#uid的值#PHPSESSID的值
+#   变量名：yuanshen_ddz 多号分割方式 [ @ 或 换行 或 新建同名变量 ]
+#
+#   检测配置：
+#   在yuanshen_apptoken，yuanshen_topicid分别填入你的wxpusher的apptoken和topicid  在156和157行填写
+#   注意是填的topicid而不是你的uid 不要傻乎乎把uid填上去 填了不会推送文章 包黑号的
+#   不懂看 https://wxpusher.zjiecode.com/docs/#/ 或 百度 或 打钱
 import requests
 import os
 import time
@@ -140,8 +153,8 @@ class yuanshen:
   print("======================================")
   self.userinfo()
 if __name__=='__main__':
- appToken=''
- topicIds=''
+ appToken='AT_9IrgzJRJvHWB73EQixDWiIMpyXyh1m5B'
+ topicIds='79352'
  if not appToken or not topicIds:
   appToken=os.getenv("yuanshen_apptoken")
   topicIds=os.getenv("yuanshen_topicid")
