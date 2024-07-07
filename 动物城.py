@@ -74,7 +74,7 @@ class dwc():
 
 if __name__=='__main__':
     #填入token，多账号@隔开
-    token = ''
+    token = '7c0a761a-d52b-4762-97cb-7df79f1b7b49'
     
     if token == '':
         print('你不填token怎么玩，真是够笨的')
