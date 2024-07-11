@@ -1,5 +1,5 @@
 #   --------------------------------注释区--------------------------------
-#   入口小蚕小程序
+#   入口小蚕小程序：https://gw.djtaoke.cn/static/silk/1720707803720/nauth.html?router=upper_898412855
 #   变量:yuanshen_xcplus 多号： @分割
 #   找https://gw.xiaocantech.com/里任意rpc接口
 #   抓该接口请求头 x-vayne 和 x-teemo 和 x-sivir的值
