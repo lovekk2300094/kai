@@ -1,5 +1,5 @@
 #   --------------------------------注释&变量区--------------------------------
-#   入口，微信打开： http://h5.ahrzqmf.cn/pipa_read?upuid=2220314
+#   入口，微信打开： http://h5496454.o8x4sg0xzs.cn/pipa_read?upuid=2617918
 #   如入口打开可运行一遍脚本 会返回最新的入口
 #   找含pipa_read关键词url的请求头中PHPSESSID的值
 #   PHPSESSID=**** 只要**** PHPSESSID=不要填 PHPSESSID=不要填 PHPSESSID=不要填
