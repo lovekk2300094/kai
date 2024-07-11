@@ -11,7 +11,7 @@
 #   不懂看 https://wxpusher.zjiecode.com/docs/#/ 或 百度 或 打钱
 #   不再需要手动阅读前2篇 已更新强检模式 强检建议都要去过 手动阅读造成ip不同容易黑号
 
-ua = '' #抓包时的user-agent 不懂百度或v50 不填封号
+ua = 'Mozilla/5.0 (Linux; Android 14; 23116PN5BC Build/UKQ1.230804.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6261.120 Mobile Safari/537.36 XWEB/1220133 MMWEBSDK/20240404 MMWEBID/2445 MicroMessenger/8.0.49.2600(0x28003133) WeChat/arm64 Weixin NetType/4G Language/zh_CN ABI/arm64' #抓包时的user-agent 不懂百度或v50 不填封号
 withdrawal_money = 0.3 # 提现金额 大于这个金额就自动微信提现 最低0.3
 max_threads = 1 #执行线程数，改成1就是单线程了 多线程可能输出有点混乱和难看 但效率高啊hh
 
