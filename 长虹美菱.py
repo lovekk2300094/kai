@@ -1,16 +1,14 @@
+#环境变量 chmlck 取url请求头中的token，
+#变量格式 token#备注，多账号换行
+#撸实物加视频会员
 import os
 import requests
 response = requests.get("https://mkjt.jdmk.xyz/mkjt.txt")
 response.encoding = 'utf-8'
 txt = response.text
 print(txt)
-
-#环境变量 chmlck 取url请求头中的token，
-#变量格式 token#备注，多账号换行
-#撸实物加视频会员
 accounts = os.getenv("chmlck", "").splitlines()
 print("☞☞☞ 长虹美菱每日签到 ☜☜☜\n")
-
 if not accounts:
     print("未找到任何账号信息。")
 else:
