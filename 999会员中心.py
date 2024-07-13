@@ -48,7 +48,7 @@ class ac:
             print("所有任务上报成功")
 
 if __name__ == "__main__":
-    token = ""
+    token = "6ef01954-d59a-477d-8ab0-837c4fc4942a"
     ac_instance = ac(token)
     ac_instance.sign()
     ac_instance.finishTask()
