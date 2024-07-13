@@ -1,10 +1,9 @@
 /**
  * 
- * 注册地址：https://app.tmuyun.com/webChannels/invite?inviteCode=WUZVPM&tenantId=102&accountId=66854e94d859cc6739627598
  * 抓包协议头里的 X-SESSION-ID 和 X-ACCOUNT-ID
- * 变量格式 XinJiangBei='手机号&姓名(对应提现支付宝中的真实姓名)&sessionId&accountId'
+ * 变量格式 XinJiangBei='手机号&姓名&sessionId&accountId&支付宝账号'
+ * 分隔符 #
  * 多账号用 空格 分割
- * 定时九点多
  */
 
 const $ = new Env('新江北')
@@ -31,14 +30,14 @@ let id = ''
 })().catch((e) => {$.log(e)}).finally(() => {$.done({});});
 
 async function main() {
-    console.log('开始')
+    console.log('作者：@xzxxn777\n频道：https://t.me/xzxxn777\n群组：https://t.me/xzxxn7777\n自用机场推荐：https://xn--diqv0fut7b.com\n')
     if (!XinJiangBei) {
         console.log("先去boxjs填写账号密码")
         $.msg($.name, '先去boxjs填写账号密码');
         return
     }
     Utils = await loadUtils();
-    let arr = XinJiangBei.split(" ");
+    let arr = XinJiangBei.split("#");
     for (const item of arr) {
         console.log("随机生成UA")
         let randomUA = generateRandomUA();
@@ -51,6 +50,7 @@ async function main() {
         realname = item.split("&")[1]
         sessionId = item.split("&")[2]
         accountId = item.split("&")[3]
+        alipayAccount = item.split("&")[4]
         console.log(`用户：${phone_number}开始任务`)
         console.log("————————————")
         console.log("获取id")
@@ -113,7 +113,7 @@ async function main() {
                                 let getToken = await activityPost(`/ctoken/getToken.do`)
                                 eval(getToken.token);
                                 let token = window[key];
-                                let award = await activityPost(`/activity/doTakePrize`,`alipay=${phone_number}&realname=${encodeURI(realname)}&recordId=${recordId}&token=${token}`)
+                                let award = await activityPost(`/activity/doTakePrize`,`alipay=${alipayAccount}&realname=${encodeURI(realname)}&recordId=${recordId}&token=${token}`)
                                 console.log(award.message)
                             } else {
                                 console.log(`请填写真实姓名`)
