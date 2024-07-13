@@ -1,4 +1,4 @@
-#50行替换自己的token后续更新
+#50行替换自己的authorzation后续更新
 import requests
 import time
 import random
